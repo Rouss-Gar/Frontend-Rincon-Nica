@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/estilo.css">
+    <script src="app.js" async></script>
+    <title>Carrito Rincon Nica</title>
+
+<!-- </head>
+<body> -->
+    <!-- <header>
+        <img src="./assets/imagenes/productos/header.jpg" alt="" class="img-item">
+    </header>
+    <h1>Carrito de compra</h1> -->
+    <!-- Tu contenido adicional -->
+<!-- </body>
+</html> -->
+
+
+
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body>
+
+    <!-- <header>
+        <img src="./assets/imagenes/productos/header.jpg" alt="" class="img-item">
+        <h1>Carrito de compra</h1>
+    </header> -->
+
+
+
+
+
+
+    
+
+
+    <section class="contenedor">
+        <!-- Contenedor de elementos -->
+        <div class="contenedor-items">
+            <div class="item">
+                <span class="titulo-item">Zapato</span>
+                <img src="./assets/imagenes/productos/shoe-4.jpg" alt="" class="img-item">
+                <span class="precio-item">C$800.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Muñeca Masayeña</span>
+                <img src="./assets/imagenes/productos/Nina.jpg" alt="" class="img-item">
+                <span class="precio-item">C$100.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Pintura Artistica</span>
+                <img src="./assets/imagenes/productos/foto.jpg" alt="" class="img-item">
+                <span class="precio-item">C$500.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Faja De Cuero</span>
+                <img src="./assets/imagenes/productos/belt.jpg" alt="" class="img-item">
+                <span class="precio-item">C$150.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Camisa Nacional</span>
+                <img src="./assets/imagenes/productos/Camisa13.webp" alt="" class="img-item">
+                <span class="precio-item">C$300.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Joyeria Para Dama</span>
+                <img src="./assets/imagenes/productos/joya.jpg" alt="" class="img-item">
+                <span class="precio-item">C$100.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Sombrero Hipico</span>
+                <img src="./assets/imagenes/productos/sombrero.jpg" alt="" class="img-item">
+                <span class="precio-item">C$400.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Hamaca Tejida</span>
+                <img src="./assets/imagenes/productos/TOURS & ATTRACTIONS_ Hammocks at Masaya Artisans Market.jpeg" alt="" class="img-item">
+                <span class="precio-item">C$600.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Sombrero De Paja</span>
+                <img src="./assets/imagenes/productos/sombrero1.jpg" alt="" class="img-item">
+                <span class="precio-item">C$180.00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Artesania De Barro</span>
+                <img src="./assets/imagenes/productos/Pichelito.jpg" alt="" class="img-item">
+                <span class="precio-item">C$250.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Vasija De Barro</span>
+                <img src="./assets/imagenes/productos/Panita.jpg" alt="" class="img-item">
+                <span class="precio-item">C$150.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Escultura De Bsrro</span>
+                <img src="./assets/imagenes/productos/Cara.jpg" alt="" class="img-item">
+                <span class="precio-item">C$800.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+        </div>
+        <!-- Carrito de Compras -->
+        <div class="carrito" id="carrito">
+            <div class="header-carrito">
+                <h2>Tu Carrito</h2>
+            </div>
+
+            <div class="carrito-items">
+                <!-- 
+                <div class="carrito-item">
+                    <img src="img/boxengasse.png" width="80px" alt="">
+                    <div class="carrito-item-detalles">
+                        <span class="carrito-item-titulo">Box Engasse</span>
+                        <div class="selector-cantidad">
+                            <i class="fa-solid fa-minus restar-cantidad"></i>
+                            <input type="text" value="1" class="carrito-item-cantidad" disabled>
+                            <i class="fa-solid fa-plus sumar-cantidad"></i>
+                        </div>
+                        <span class="carrito-item-precio">$15.000,00</span>
+                    </div>
+                   <span class="btn-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                   </span>
+                </div>
+                <div class="carrito-item">
+                    <img src="img/skinglam.png" width="80px" alt="">
+                    <div class="carrito-item-detalles">
+                        <span class="carrito-item-titulo">Skin Glam</span>
+                        <div class="selector-cantidad">
+                            <i class="fa-solid fa-minus restar-cantidad"></i>
+                            <input type="text" value="3" class="carrito-item-cantidad" disabled>
+                            <i class="fa-solid fa-plus sumar-cantidad"></i>
+                        </div>
+                        <span class="carrito-item-precio">$18.000,00</span>
+                    </div>
+                   <button class="btn-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                   </button>
+                </div>
+                 -->
+            </div>
+            <div class="carrito-total">
+                <div class="fila">
+                    <strong>Tu Total</strong>
+                    <span class="carrito-precio-total">
+                        $120.000,00
+                    </span>
+                </div>
+                <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <button class="action-btn" id="redireccionar-btn">
+        <ion-icon name="bag-handle-outline"></ion-icon>
+        <span class="count">0</span>
+    </button>
+    
+    <!-- Agrega un botón para redirigir a la página principal -->
+    <button id="pagina-principal-btn">Ir a la Página Principal</button>
+    
+    <script src="js/app.js"></script>
+    <script>
+        // Función para redirigir a la página principal
+        function redirigirAPaginaPrincipal() {
+            // Redirige a la página principal (reemplaza 'ruta-de-tu-pagina.html' con la URL de tu página principal)
+            window.location.href = "index.html";
+        }
+    
+        // Selecciona el botón por su ID
+        const botonRedireccionar = document.getElementById("redireccionar-btn");
+        const botonPaginaPrincipal = document.getElementById("pagina-principal-btn");
+    
+        // Agrega un evento de clic al botón y llama a la función de redirección a la página principal
+        botonRedireccionar.addEventListener("click", redirigirAPaginaPrincipal);
+    
+        // Agrega un evento de clic al botón de la página principal
+        botonPaginaPrincipal.addEventListener("click", redirigirAPaginaPrincipal);
+    </script>
+    
+    
+
+    
+    <script src="js/app.js"></script>
+
+</body>
+</html>
